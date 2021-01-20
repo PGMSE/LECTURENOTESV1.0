@@ -378,7 +378,7 @@ button:hover{
   .learn{position: absolute;}
   button{right: 38%;}
   .cards{margin-top:40%; grid-template-columns: auto auto;height: 60%;}
-    .navi a{margin-left:2px; margin-right:2px; width: 309px;}
+    .navi a{margin-left:2px; margin-right:2px; width: 99%;}
     .e{margin-left:2px; margin-right:2px; width: 309px;}
     header{word-wrap: break-word;font-size: 200%;height:30%;padding-top: 10%;}
 }
