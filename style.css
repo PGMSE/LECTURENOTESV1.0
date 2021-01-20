@@ -58,12 +58,18 @@ header{
     align-content: center;
     
 }
+
+
+
+
+
+
 .ann,.quiz,.nitian{
   height:300px;
   align-items: center;
   border-style: solid;
   border-width: 4px;
-  border-color: blue;
+  bb: blue;
 }
 hr{
   border-width: 10px;
@@ -73,7 +79,7 @@ hr{
 .grid-container{
   display:grid;
   background-color: red;
-  grid-template-columns: 280px auto 400px;
+  grid-template-columns: 20% auto 25%;
   height: 1800px;
 }
 iframe{
@@ -116,7 +122,7 @@ iframe{
  
   border-style: groove;
   border-width: 5px;
-  border-color: #472fb1;
+  bb: #472fb1;
   overflow: hidden;
   background-image: url("leaf.jpg");
  
@@ -143,7 +149,7 @@ a{
   background-color: lawngreen;
   border-style: solid;
   border-top: 5px;
-  border-color: white;
+  bb: white;
   
   color: aliceblue;
   
@@ -156,7 +162,7 @@ a{
   float:left;
   border-style: solid;
   border-top: 5px;
-  border-color: blue;
+  bb: blue;
   width: 300px;
   overflow: auto;
   display: flex;
@@ -253,7 +259,7 @@ h2{
 .learn1{
   border-style: solid;
   border-width: 4px;
-  border-color: green;
+  bb: green;
   height:500px;
   background-image: url('bulb.jpg');
   text-align: center;
@@ -277,14 +283,14 @@ h2{
   border-style: solid;
   border-width: 2px;
   border-radius: 19px;
-  border-color: yellow;
+  bb: yellow;
 }
 .card{
   background-color: white;
   border-style: solid;
   border-width: 2px;
   border-radius: 19px;
-  border-color: yellow;
+  bb: yellow;
   color: #472fb1;
   text-align: center;
   height:380px;
@@ -356,4 +362,23 @@ button:hover{
 }
 .nitn{
   height:390px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .left{display:none;}
+  .right{display: none;}
+  .middle{width: 100%;}
+  .grid-container{
+  grid-template-columns: 100% 0% 0%;}
+  
+  .middle{position: relative;}
+  .logo{position:absolute;bottom:15%;}
+  #he{word-wrap:break-word; font-size: 300%;}
+  .learn{position: absolute;}
+  button{right: 38%;}
+  .cards{margin-top:40%; grid-template-columns: auto auto;height: 60%;}
+    .navi a{margin-left:2px; margin-right:2px; width: 309px;}
+    .e{margin-left:2px; margin-right:2px; width: 309px;}
+    header{word-wrap: break-word;font-size: 200%;height:30%;padding-top: 10%;}
 }

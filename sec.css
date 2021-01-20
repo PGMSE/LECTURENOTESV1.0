@@ -1,0 +1,204 @@
+body{
+    font-family: 'Monoton', cursive;
+    cursor: url('https://img.icons8.com/doodle/48/000000/pelican.png'), auto; /*New thing Learnt i.e to change cursor with an image note that downloading icons is easy than searching for png image*/ 
+      
+  
+}
+.cover{
+    background-image: url('spider.jpg');
+    height: 30%;
+    text-align: center;
+    padding: 50px;
+    font-size: 70px;
+}
+hr{
+    height: 10px;
+    border-radius: 50px;
+    background-image: url('patr.jpg');
+}
+.container{
+    display: block;
+    text-align: center;
+    padding-left: 30px ;
+}
+.dropbtn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    Margin-left: 45%;
+  
+}
+.dropdown-content{
+   
+    display: none;
+  
+}
+button{
+  
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    Margin-left: 45%;
+    max-width: 270px;
+    font-family: 'Potta One', cursive;
+}
+#ab1{
+    margin-top: 30px;
+    width: 269px;
+    background-color:	#FF355E
+}
+#ab2{
+    margin-top: 30px;
+    width: 269px;
+    background-color: #6653FF;
+    
+    
+}
+#ab3{
+    margin-top: 30px;
+    width: 269px;
+    background-color: #39ff14;
+}
+#ab4{
+    margin-top: 30px;
+    width: 269px;
+    background-color:#FF6653
+}
+#ab5{
+    margin-top: 30px;
+    width: 269px;
+    background-color:  #BC53FF;
+}
+#try{
+    margin-left: 48%;
+}
+button:hover{
+    background-color: red;
+}
+.dropdown-content:hover{
+    background-image: url('lan.jpg');
+
+}
+#ab1:hover{
+    background-color: rgb(6, 56, 150);
+    border-color: springgreen;
+}
+#ab2:hover{
+    background-color: rgb(226, 1, 1);
+    border: springgreen;
+}
+#ab3:hover{
+    background-color: rgb(11, 96, 129);
+    border: springgreen;
+}
+#ab4:hover{
+    background-color: yellow;
+    border: springgreen;
+}
+#ab5:hover{
+    background-color: red;
+    border: springgreen;
+}
+.dropdown{
+    display: none;
+}
+.ht,.pst,.math,.cm,.mpt{
+    width:100%;
+    height:400px;
+    background-color: tomato;
+    text-align:center;
+    display: grid;
+   
+}
+.ht,.pst,.cm,.mpt,.math{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% auto;
+    text-align: center;
+    
+    border-style: solid;
+}
+.ht1,.ht2,.ht3,.ht4,.ht5,.ht6,.ht7{
+    border-style: solid;
+    text-align: center;
+    padding-top: 45px;
+    background-image: url('background.png');
+    background-position: center;
+    color: White;
+    font-size: 22px;
+}
+.ht1{
+    border-style: solid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-image: url('patr.jpg');
+    font-size: 50px;
+    
+}
+.ht6{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.ht2,.ht3,.ht4,.ht5,.ht6,.ht7{
+  
+    color:white;
+    font-size: 40px;
+    text-decoration: none;
+    display:inline-block;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    width:100%;
+    height:100%;
+    opacity: 100%;
+    cursor: url('https://img.icons8.com/color/48/000000/cat_in_the_tree.png'), auto;
+}
+.ht{
+    display: none;
+}
+.pst{
+    display: none;
+}
+.math{
+    display: none;
+}
+.mpt{
+    display: none;
+}
+.cm{
+    display: none;
+}
+.dropdown{
+    display: block;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 2px 2px 50px rgb(234, 230, 245); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(black,purple); 
+    
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-image:linear-gradient(black,rgb(18, 3, 82)) 
+  }
+
