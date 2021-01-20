@@ -1,0 +1,71 @@
+body{
+    font-family: 'Monoton', cursive;
+    cursor: url('https://img.icons8.com/doodle/48/000000/pelican.png'), auto; /*New thing Learnt i.e to change cursor with an image note that downloading icons is easy than searching for png image*/ 
+      
+  
+}
+.cover{
+    background-image: url('c5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30%;
+    text-align: center;
+    padding: 50px;
+    font-size: 70px;
+}
+hr{
+    height: 10px;
+    border-radius: 50px;
+    background-image: linear-gradient(black,blue)
+}
+.container{
+    display: block;
+    text-align: center;
+    padding-left: 30px ;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 2px 2px 50px rgb(234, 230, 245); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(black,purple); 
+    
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-image:linear-gradient(black,rgb(18, 3, 82)) 
+  }
+
+
+
+
+hr{width:100%;}
+
+.abm{width: 20px;}
+h2{color:black}
+.problems{
+    font-family: cursive;
+}
+.problem1{
+    background-image:linear-gradient(black,red);
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    font-size:200%
+}
+.problem1::before{
+    content:'🐰';
+}
+b{
+    text-decoration: underline;
+}
