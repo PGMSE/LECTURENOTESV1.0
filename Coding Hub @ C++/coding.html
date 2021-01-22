@@ -10,8 +10,35 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
     <body>
+        <embed src="highonlife.mp3" loop="true" autostart="true" width="2" height="0">
         <div class="heading"><h1>Lecture Notes +</h1></div>
         <div class="cover">
+            <div class="move">
+                <div class="con">
+                    <div class="te">
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        <h2>CODINGHUB</h2>
+                        
+        
+                    </div>    
+                </div>
+            </div>
        <h2>Coding Hub @ C++</h2>
         </div>
         <hr>
@@ -22,40 +49,102 @@
 
            <div class="problems">
                <div class="problem1">
-               <b>PROBLEM1</b> - Prime Generator
-                #number-theory
+               <b>PROBLEM1</b> - <p> Prime Generator
                 
                 Peter wants to generate some prime numbers for his cryptosystem. Help him! Your task is to generate all prime numbers between two given numbers!
                 
                 Input
                 The input begins with the number t of test cases in a single line (t<=10). In each of the next t lines there are two numbers m and n (1 <= m <= n <= 1000000000, n-m<=100000) separated by a space.
-                
+                <br>
                 Output
                 For every test case print all prime numbers p such that m <= p <= n, one number per line, test cases separated by an empty line.
-                
-                Example
+                <br>
+                Example:
+                <br>
                 Input:
-                2
-                1 10
-                3 5
-                
-                Output:
-                2
-                3
-                5
-                7
-                
-                3
-                5
+                <br>
+                2<br>
+                1 10<br>
+                3 5<br>
+                <br>
+                Output:<br>
+                2<br>
+                3<br>
+                5<br>
+                7<br>
+                <br>
+                3<br>
+                5<br>
+                <br>
                 Warning: large Input/Output data, be careful with certain languages (though most should be OK if the algorithm is well designed)
+                </p>
+                <br>
+            </div>
+
+
+                <div class="ans1">
+                <p>
+                #include<iostream>     <br>
+                    using namespace std;  <br>
+                    int main() {  <br>
+                        int t,flag;  <br>
+                          int m[10],n[10]; <br>
+                          cin>>t; <br>
+                          for(int k=0;k<t;k++) <br>
+                          { <br>
+                              cin>>m[k]; <br>
+                              cin>>n[k]; <br>
+                          } <br>
+                        for(int l=0;l<=t;l++) <br>
+                        { <br>
+                      
+                    
+                               // iteration until low is not equal to high <br>
+                               while (m[l] < n[l]) { <br>
+                                  flag = 0; <br>
+                            
+                                  // ignore numbers less than 2 <br>
+                                  if (m[l] <= 1) { <br>
+                                     ++m[l]; <br>
+                                     continue; <br>
+                                  }
+                            
+                                  // if low is a non-prime number, flag will be 1 <br>
+                                  for (int i = 2; i <= m[l] / 2; ++i) { <br>
+                            
+                                     if (m[l] % i == 0) { <br>
+                                        flag = 1; <br>
+                                        break; <br>
+                                     } <br>
+                                  } <br>
+                            
+                                  if (flag == 0) <br>
+                                     cout<<m[l]<<endl; <br>
+                            
+                                  // to check prime for the next number <br>
+                                  // increase low by 1 <br>
+                                  ++m[l]; <br>
+                          
+                    
+                               } <br>
+                               cout<<" "<<endl; <br>
+                       
+                                
+                                      
+                        } <br>
+                    
+                        
+                      return 0; <br>
+                    } </p></div> <br>
                </div>
-           </div>
+
+
 
            
 
 
 
-      <embed src="highonlife.mp3" loop="true" autostart="true" width="2" height="0">
+      
         <script src="sec.js"></script>
     </body>
 </html>

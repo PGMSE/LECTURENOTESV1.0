@@ -1,7 +1,7 @@
 body{
     font-family: 'Monoton', cursive;
     cursor: url('https://img.icons8.com/doodle/48/000000/pelican.png'), auto; /*New thing Learnt i.e to change cursor with an image note that downloading icons is easy than searching for png image*/ 
-      
+
   
 }
 .cover{
@@ -66,6 +66,105 @@ h2{color:black}
 .problem1::before{
     content:'🐰';
 }
+.ans1{
+    background-image:linear-gradient(black,rgb(31, 18, 146));
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    font-size:200%;
+}
+.ans1::before{
+    content:'🐰 #CODE';
+    color:lawngreen;
+    text-decoration: underline;
+}
 b{
     text-decoration: underline;
 }
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+.con{
+    position: absolute;
+   
+    height:80%;
+    width:100%;
+    top:2%;
+    left: 0%;
+    
+
+}
+.te{
+    position: relative;
+   
+    height: 100%;
+    color
+    width:100%;
+    font-size: 25px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    overflow:hidden;
+}
+.te h2{
+    animation-name: mo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes mo{
+    0%{opacity:0;transform: translateY(0);}
+    25%{opacity:1;}
+    50%{opacity:1;}
+    100%{opacity:0;transform: translateY(100%);}
+}
+.te h2:nth-child(1){
+    animation-delay: 1s;
+}
+.te h2:nth-child(2){
+    animation-delay: 2.7s;
+}
+.te h2:nth-child(3){
+    animation-delay: 3.7s;
+}
+.te h2:nth-child(4){
+    animation-delay: 4.3s;
+}
+.te h2:nth-child(5){
+    animation-delay: 5.9s;
+}
+.te h2:nth-child(6){
+    animation-delay: 6.1s;
+}
+.te h2:nth-child(7){
+    animation-delay: 7.56s;
+}
+.te h2:nth-child(8){
+    animation-delay: 8.98s;
+}
+.te h2:nth-child(9){
+    animation-delay: 9.99s;
+}
+.te h2:nth-child(10){
+    animation-delay: 13.65s;
+}
+.te h2:nth-child(11){
+    animation-delay: 14s;
+}
+.te h2:nth-child(12){
+    animation-delay: 5.26s;
+}
+.te h2:nth-child(13){
+    animation-delay: 3.65s;
+}
+.te h2:nth-child(14){
+    animation-delay: 3.4s;
+}
+.te h2:nth-child(15){
+    animation-delay: 2.22s;
+}
+
+h2{
+    background: -webkit-linear-gradient(rgb(10, 199, 26), rgb(40, 10, 172));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
